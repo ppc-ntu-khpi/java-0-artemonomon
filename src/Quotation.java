@@ -1,6 +1,7 @@
 public class Quotation {
-  String quote = "Легко вставать, когда ты не ложился!";
+  public String quote = "Легко вставать, когда ты не ложился!";
+  public String author = "я";
   public void display() {
-    System.out.println(quote);
+    System.out.println(quote + "\nAuthor: " + author);
   }
 }

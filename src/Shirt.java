@@ -10,7 +10,7 @@ public class Shirt {
   public void displayShirtInformation() {
     System.out.println("Shirt ID: " + shirtID);
     System.out.println("Shirt description:" + description);
-    System.out.println("Shirt Color: " + colorCode);
+    System.out.println("Shirt Color: " + shirtColor);
     System.out.println("Shirt price: $" + price);
     System.out.println("Quantity in stock: " + quantityInStock);
   } // кінець методу displayShirtInformation
